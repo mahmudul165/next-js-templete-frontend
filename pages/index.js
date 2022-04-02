@@ -11,7 +11,7 @@ import MeetAdvisor from "../component/MeetAdvisor";
 import Team from "../component/Team";
 import Footer from "../component/Footer";
 
-export default function Home() {
+function Home() {
   return (
     <>
       <Head>
@@ -57,3 +57,4 @@ export default function Home() {
     </>
   );
 }
+export default Home;
