@@ -1,0 +1,191 @@
+/* font */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"); */
+/* common style or utilities */
+.body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Assistant !important;
+}
+.global-text {
+  color: #ff4917 !important;
+}
+.banner-sub-title {
+  font-family: "Assistant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: medium;
+  line-height: 27px;
+  letter-spacing: 0.68em;
+  text-transform: uppercase;
+}
+.banner-main-tittle {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.navbar-custom {
+  position: relative;
+  overflow: hidden;
+  padding-left: 20%;
+}
+.navbar-custom::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+  /* background-color: #ff4917; */
+}
+/* slider  */
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+.slider::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 7%;
+  height: 100%;
+  border-top: 203px solid red;
+  border-right: 200px solid transparent;
+  /* background-color: #ff4917; */
+}
+.slider::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 9%;
+  height: 100%;
+  border-top: 256px solid red;
+  border-right: 250px solid transparent;
+  opacity: 75%;
+  /* background-color: #ff4917; */
+}
+.slider::after(:after) {
+  position: relative;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 11%;
+  height: 100%;
+  border-top: 300px solid red;
+  border-right: 250px solid transparent;
+  opacity: 50%;
+  /* background-color: #ff4917; */
+}
+.ul-style {
+  margin-left: 500px;
+}
+ul li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+li a {
+  text-decoration: none;
+  padding: 4px;
+  position: 0 10px;
+}
+.container-position {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5px;
+
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .shopping-size {
+    align-items: center;
+    width: 400px;
+    height: auto;
+  }
+  .model-img {
+    align-items: center;
+    margin-left: 0%;
+    width: 390px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+}
+/* btn color */
+.btn-color-bg {
+  background-color: #ff4917 !important;
+}
+.slider {
+  background-image: url(/images/rsz_business-consulting.jpg);
+  background-color: black;
+  z-index: 1;
+}
+/* .navbar-custom::before {
+  height: auto;
+  width: 200px;
+  background-color: #ff4917 !important;
+} */
+.button-custom {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.inner-button {
+  position: absolute;
+  right: 6px;
+  width: 50%;
+  height: 70%;
+  border-radius: 79px;
+  z-index: -1;
+}
+
+.button-custom-in {
+  position: absolute;
+  right: 6px;
+  width: 50%;
+  height: 70%;
+  border-radius: 79px;
+  background-color: #ff4917;
+  z-index: -1;
+}
+.test-shape {
+  height: 200px;
+  width: 200px !important;
+  border-radius: 50%;
+  display: inline-block;
+  /* border: 10px solid #ff4917;
+  border-left: 10px solid #e7d8d8b0;
+  border-bottom: 10px solid #e7d8d8b0;
+  border-top: 10px solid #e7d8d8b0; */
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+/* service */
+.service {
+  /* display: inline-block; */
+}
+/* css for video */
+.video-section {
+  display: block;
+}
+.vid-bg {
+  right: 0;
+  bottom: 0;
+  width: 100% !important;
+  object-fit: cover;
+  height: 576px !important;
+}
+.we-do-section {
+  margin-top: 350px;
+}
+.we-do-top-container {
+  margin-top: -300px !important;
+}
+.advisor-container div {
+  padding: 20px;
+}
