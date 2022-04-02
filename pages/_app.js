@@ -42,12 +42,7 @@ function MyApp({ Component, pageProps }) {
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
           crossOrigin="anonymous"
         />
-        {/* font awesome   */}
 
-        <Script
-          src="https://kit.fontawesome.com/61a6132c09.js"
-          crossOrigin="anonymous"
-        ></Script>
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -55,6 +50,11 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"
         ></link>
       </Head>
+      {/* font awesome   */}
+      <Script
+        src="https://kit.fontawesome.com/61a6132c09.js"
+        crossOrigin="anonymous"
+      ></Script>
 
       <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
