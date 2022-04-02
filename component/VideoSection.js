@@ -5,8 +5,8 @@ function VideoSection() {
     <section className="video-section opacity-25 bg-dark">
       <video
         controls
-        playsinline="playsinline"
-        autoplay="autoplay"
+        playsInline="playsInline"
+        autoPlay="autoPlay"
         muted="muted"
         loop="loop"
         className="vid-bg"
