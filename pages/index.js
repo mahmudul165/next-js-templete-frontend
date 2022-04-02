@@ -10,6 +10,7 @@ import WeDo from "../component/WeDo";
 import MeetAdvisor from "../component/MeetAdvisor";
 import Team from "../component/Team";
 import Footer from "../component/Footer";
+import Slider from "../component/Slider";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       {/* home page start */}
       <>
         <Header />
+        <Slider />
         <About />
         <CustomerServices />
         <VideoSection />
