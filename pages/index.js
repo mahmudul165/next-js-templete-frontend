@@ -28,7 +28,6 @@ function Home() {
           crossOrigin="anonymous"
         />
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
         <script
           src="https://kit.fontawesome.com/61a6132c09.js"
           crossOrigin="anonymous"
