@@ -14,10 +14,10 @@ function MeetAdvisor() {
         </h1>
       </div>
       {/* <!-- team member card start  --> */}
-      <div className="row row-cols-4 advisor-container  ">
+      <div className="d-flex advisor-container p-5 ">
         {/* <!-- card 1 start  --> */}
-        <div className="card bg-white text-dark border-0  ">
-          <img src="images/a3.png" className="card-img" alt="..." />
+        <div className="card bg-white text-dark border-0  team-shape p-0  m-1">
+          <img src="images/a3.png" className="  " alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
             <h6>mahmudul Hasan</h6>
@@ -25,7 +25,7 @@ function MeetAdvisor() {
           </div>
         </div>
         {/* <!-- card 1 end --> */}
-        <div className="card bg-white text-dark border-0">
+        <div className="card bg-white text-dark border-0 team-shape  p-0  m-1">
           <img src="images/a4.png" className="card-img" alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
@@ -33,7 +33,7 @@ function MeetAdvisor() {
             <p>Business Developer</p>
           </div>
         </div>
-        <div className="card bg-white text-dark border-0">
+        <div className="card bg-white text-dark border-0 team-shape  p-0  m-1">
           <img src="images/a1.png" className="card-img" alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
@@ -41,7 +41,7 @@ function MeetAdvisor() {
             <p>Business Developer</p>
           </div>
         </div>
-        <div className="card bg-white text-dark border-0">
+        <div className="card bg-white text-dark border-0 team-shape  p-0  m-1">
           <img src="images/a2.png" className="card-img" alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
@@ -73,19 +73,19 @@ function MeetAdvisor() {
             form, by injected humour, or randomised words which don't look even.
           </p>
 
-          <button className="btn btn-md btn-dark text-white button-custom rounded-pill my-2 py-2">
+          <button className="btn btn-lg btn-dark text-white button-custom rounded-pill my-2 py-2">
             <div className="button-custom-in"></div>
             Learn More
           </button>
         </div>
         <div className="d-flex p-3">
           <div className="m-3 mb-3">
-            <div className="test-shape  "></div>
-            <div className="test-shape"></div>
+            <div className="test-shape-1  "></div>
+            <div className="test-shape-2"></div>
           </div>
           <div className="m-3">
-            <div className="test-shape "></div>
-            <div className="test-shape"></div>
+            <div className="test-shape-2 "></div>
+            <div className="test-shape-1"></div>
           </div>
         </div>
       </section>

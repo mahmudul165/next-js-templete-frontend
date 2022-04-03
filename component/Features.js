@@ -3,7 +3,6 @@ import React from "react";
 function Features() {
   return (
     <>
-      {" "}
       <section className="container my-3 p-3">
         <div className="my-3 text-center">
           <h5 className=" my-3 fw-2 fw-bold  global-text my-2">

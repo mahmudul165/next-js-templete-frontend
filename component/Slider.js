@@ -1,5 +1,6 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
+
 function Slider() {
   return (
     <>
@@ -24,11 +25,11 @@ function Slider() {
                     </h2>
                   </Slide>
                   <div className="flex">
-                    <button className="btn btn-md button-custom btn-color-bg text-white   rounded-pill p-2 m-1  ">
+                    <button className="btn btn-lg button-custom btn-color-bg text-white   rounded-pill p-2 m-1  ">
                       <div className=" inner-button bg-dark fw-bold"></div>
                       Get Started Now
                     </button>
-                    <button className="btn btn-md bg-white text-dark button-custom rounded-pill p-2 m-1">
+                    <button className="btn btn-lg bg-white text-dark button-custom rounded-pill p-2 m-1">
                       <div className="inner-button btn-color-bg fw-bold"></div>
                       Our Services
                     </button>

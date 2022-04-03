@@ -4,9 +4,9 @@ function Team() {
   return (
     <>
       <section className="team">
-        <div className="row row-cols-2 align-items-center text-whte">
-          <div className="img-do-section  ">
-            <img src="/images/team-image.png" alt="" />
+        <div className="row row-cols-2 align-items-center text-whte  ">
+          <div className="img-do-section   ">
+            <img className=" " src="/images/team-image.png" alt="" />
           </div>
           <div className=" ">
             <h5 className=" my-3 fw-2 fw-bold  global-text">
@@ -14,11 +14,11 @@ function Team() {
               What We Do <span className="fs-2 fw mt-2  ">-</span>
             </h5>
 
-            <h1 className="fs-1 fw-bolder my-3 p-3">
+            <h1 className="fs-1 fw-bolder my-1 p-2">
               We Have an Experience Team Member
             </h1>
-            <p className="py-3 my-3">
-              <span className="fs-2 fw mt-2 global-text ">"</span>{" "}
+            <p className="py-2 mb-1">
+              <span className="fs-2 fw  global-text ">"</span>{" "}
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -28,11 +28,12 @@ function Team() {
                 Unknown printer took a galley of type and scrambled it to make a
                 type specimen book there are many
               </p>
-              <span className="fs-2 fw mt-2 global-text ">"</span>
+              <span className="fs-2 fw  global-text ">"</span>
             </p>
-            <div className="d-flex p-2">
+            <div className="d-flex ">
               <div>
                 <img
+                  className="p-2"
                   width="100px"
                   height="100px"
                   src="/images/Ellipse 20.png"
@@ -45,7 +46,7 @@ function Team() {
               </div>
             </div>
 
-            <button className="btn btn-md btn-dark text-white button-custom rounded-pill my-3 py-1">
+            <button className="btn btn-md btn-dark text-white button-custom rounded-pill my-2 py-1">
               <div className="button-custom-in"></div>
               Consulting Now
             </button>
@@ -90,7 +91,7 @@ function Team() {
         </div>
         {/* <!-- last 3 card - */}
         <div className="row row-cols-1 row-cols-md-3 g-4">
-          <div className="col p-1">
+          <div className="col p-1 ">
             <div className="card h-100 bg-light p-2">
               <img src="/images/b-1.png" className="card-img-top" alt="..." />
               <div className="card-body ">

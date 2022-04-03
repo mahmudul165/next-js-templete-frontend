@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Fade } from "react-reveal";
+import { Fade, Rotate } from "react-reveal";
 function WeDo() {
   return (
     <section className="bg-custom-color we-do-section">
@@ -28,11 +28,7 @@ function WeDo() {
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since.
             </p>
-            <ul className="ul-li-custom text-white">
-              <li>Business & Consulting Agency</li>
-              <li>Business & Consulting Agency</li>
-              <li>Business & Consulting Agency</li>
-            </ul>
+
             <button className="btn btn-lg button-custom btn-color-bg text-white   rounded-pill p-2 m-1  ">
               <div className=" inner-button bg-dark fw-bold"></div>
               Consulting Now
@@ -42,83 +38,71 @@ function WeDo() {
       </div>
       {/* <!-- 4 card for we do section start --> */}
       <div className="container  my-3 py-3">
-        <div className="d-flex align-items-center bg-light rounded-3 m-0 justify-content-around">
+        <div className="d-flex align-items-center  rounded-3 m-0 justify-content-around bg-custom-color">
           {/* <!-- card 1 start  --> */}
           <div
-            className="card text-dark border-0 p-5"
+            className="card text-dark border-0 p-5 bg-custom-color align-items-center"
             style={{ width: "18rem" }}
           >
             <Fade top className="p-5">
               <img
-                width="75px"
-                height="85px"
                 src="icons/group1.png"
-                className="card-img"
+                className="card-img h-50 w-50"
                 alt="..."
               />
             </Fade>
             <div className="card-img-overlay"></div>
-            <div className="card-footer border-0 shadow-none bg-white text-center">
-              <h2 className="fs-1 fw-bolder ">3456</h2>
+            <div className="card-footer border-0 shadow-none  text-center bg-custom-color">
+              <h2 className="fs-1 fw-bolder my-2">3456</h2>
               <p>Last updated 3 mins ago</p>
             </div>
           </div>
           {/* <!-- card 1 end -->
       <!-- card 2 start  --> */}
           <div
-            className="card text-dark border-0 p-5"
+            className="card text-dark border-0 p-5 bg-custom-color align-items-center"
             style={{ width: "18rem" }}
           >
             <Fade top className="p-5">
               <img
-                width="75px"
-                height="85px"
                 src="icons/group2.png"
-                className="card-img"
+                className="card-img w-50 h-50"
                 alt="..."
               />
             </Fade>
             <div className="card-img-overlay"></div>
-            <div className="card-footer border-0 shadow-none bg-white text-center">
-              <h2 className="fs-1 fw-bolder ">3456</h2>
+            <div className="card-footer border-0 shadow-none  text-center bg-custom-color align-items-center">
+              <h2 className="   fs-1 fw-bolder my-2  ">3456</h2>
               <p>Last updated 3 mins ago</p>
             </div>
           </div>
           <div
-            className="card text-dark border-0 p-5"
+            className="card text-dark border-0 p-2 bg-custom-color align-items-center"
             style={{ width: "18rem" }}
           >
             <Fade top className="p-5">
-              <img
-                width="75px"
-                height="85px"
-                src="icons/group3.png"
-                className="card-img"
-                alt="..."
-              />
+              <img src="icons/group3.png" className="w-50 h-50  " alt="..." />
             </Fade>
             <div className="card-img-overlay"></div>
-            <div className="card-footer border-0 shadow-none bg-white text-center">
-              <h2 className="fs-1 fw-bolder ">3456</h2>
+            <div className="card-footer border-0 shadow-none  text-center bg-custom-color">
+              <h2 className="fs-1 fw-bolder my-2">3456</h2>
               <p>Last updated 3 mins ago</p>
             </div>
           </div>
           <div
-            className="card text-dark border-0 p-5"
+            className="card text-dark border-0 p-5 bg-custom-color align-items-center"
             style={{ width: "18rem" }}
           >
             <Fade top className="p-5">
               <img
-                width="75px"
-                height="85px"
                 src="icons/group4.png"
-                className="card-img"
+                className="card-img w-50 h-50"
                 alt="..."
               />
             </Fade>
             <div className="card-img-overlay"></div>
-            <div className="card-footer border-0 shadow-none bg-white text-center">
-              <h2 className="fs-1 fw-bolder ">3456</h2>
+            <div className="card-footer border-0 shadow-none  text-center bg-custom-color align-items-center">
+              <h2 className="fs-1 fw-bolder my-2">3456</h2>
               <p>Last updated 3 mins ago</p>
             </div>
           </div>

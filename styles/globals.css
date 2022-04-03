@@ -168,20 +168,28 @@ li a {
   background-color: #ff4917;
   z-index: -1;
 }
-.test-shape {
-  height: 200px;
-  width: 200px !important;
+.test-shape-1 {
+  height: 74px;
+  width: 184px !important;
   border-radius: 50%;
   display: inline-block;
-  /* border: 10px solid #ff4917;
-  border-left: 10px solid #e7d8d8b0;
-  border-bottom: 10px solid #e7d8d8b0;
-  border-top: 10px solid #e7d8d8b0; */
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
+  border: 26px solid #f3f3f3;
+  border-top: 22px solid #ff4917;
   border-radius: 50%;
   width: 120px;
-  height: 120px;
+  height: 150px;
+}
+.test-shape-2 {
+  height: 74px;
+  width: 184px !important;
+  border-radius: 50%;
+  display: inline-block;
+  border: 26px solid #f3f3f3;
+  border-right: 22px solid #ff4917;
+  border-bottom: 22px solid #ff4917;
+  border-radius: 50%;
+  width: 120px;
+  height: 150px;
 }
 /* service */
 .service {
@@ -259,4 +267,51 @@ li a {
   width: 600px;
   height: 600px;
   transition: 3 ease-in;
+}
+/* about us section */
+.about-us-shape {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+.about-us-shape::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 7%;
+  height: 100%;
+  border-top: 203px solid #ff4917;
+  border-right: 200px solid transparent;
+  background-repeat: no-repeat;
+}
+.about-us-shape::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 9%;
+  height: 100%;
+  border-top: 256px solid #ff4917;
+  border-right: 250px solid transparent;
+  opacity: 75%;
+  /* background-color: #ff4917; */
+}
+/* team card shape */
+
+.team-shape {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+.team-shape::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 4%;
+  height: 100%;
+  border-top: 80px solid #ff4917;
+  border-right: 80px solid transparent;
+  background-repeat: no-repeat;
 }

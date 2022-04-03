@@ -29,6 +29,7 @@ import "../styles/globals.css";
 import Head from "next/head";
 import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -49,6 +50,12 @@ function MyApp({ Component, pageProps }) {
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
           crossOrigin="anonymous"
         ></link>
+        {/* greensock text animate */}
+        <link
+          href="https://fonts.googleapis.com/css?family=Asap:400,700"
+          rel="stylesheet"
+          type="text/css"
+        ></link>
       </Head>
       {/* font awesome   */}
       <Script
@@ -61,6 +68,7 @@ function MyApp({ Component, pageProps }) {
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossOrigin="anonymous"
       />
+
       <Component {...pageProps} />
     </>
   );

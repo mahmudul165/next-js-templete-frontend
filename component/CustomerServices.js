@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { Fade, Rotate } from "react-reveal";
 
 function CustomerServices() {
   return (
@@ -21,15 +21,13 @@ function CustomerServices() {
               <div className="col-12 col-lg-3 bg-white rounded border-primary text-center">
                 <div className="card border-0" style={{ width: "18rem" }}>
                   <div className="p-4 ">
-                    <Fade top>
+                    <Rotate top>
                       <img
-                        width="75px"
-                        height="85px"
                         src="/icons/Vector.png"
-                        className="card-img-top  "
+                        className="card-img-top w-50 h-50 "
                         alt="..."
                       />
-                    </Fade>
+                    </Rotate>
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Creative Idea</h5>
@@ -44,15 +42,13 @@ function CustomerServices() {
               <div className="col-12 col-lg-3 bg-white rounded border-primary text-center">
                 <div className="card border-0" style={{ width: "18rem" }}>
                   <div className="p-4">
-                    <Fade top>
+                    <Rotate>
                       <img
-                        width="60px"
-                        height="75px"
                         src="/icons/Vector (1).png"
-                        className="card-img-top  "
+                        className="card-img-top w-50 h-50  "
                         alt="..."
                       />
-                    </Fade>
+                    </Rotate>
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Creative Idea</h5>
@@ -66,15 +62,13 @@ function CustomerServices() {
               </div>
               <div className="card border-0" style={{ width: "18rem" }}>
                 <div className="p-4">
-                  <Fade top>
+                  <Rotate>
                     <img
-                      width="60px"
-                      height="75px"
                       src="/icons/Vector (2).png"
-                      className="card-img-top  "
+                      className="card-img-top w-50 h-50  "
                       alt="..."
                     />
-                  </Fade>
+                  </Rotate>
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Creative Idea</h5>

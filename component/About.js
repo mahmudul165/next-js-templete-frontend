@@ -1,18 +1,29 @@
 import React from "react";
 import { Slide } from "react-reveal";
+import { motion, MotionConfig } from "framer-motion";
 function About() {
   return (
-    <section className="my-5">
+    <section className="my-5 about-us-shape">
       <section className="about-us container d-flex my-5 p-3 align-items-center">
         <div>
           <Slide left>
-            <img
-              width="500px"
-              height="354px"
-              className="shopping-size px-2 "
-              src="/images/object.png"
-              alt=""
-            />
+            <MotionConfig transition={{ duration: 1 }}>
+              <motion.div
+                animate={{
+                  scale: [1, 2, 2, 1, 1],
+                  rotate: [0, 0, 180, 180, 0],
+                  borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                }}
+              >
+                <img
+                  width="500px"
+                  height="354px"
+                  className="shopping-size px-2 "
+                  src="/images/object.png"
+                  alt=""
+                />
+              </motion.div>{" "}
+            </MotionConfig>
           </Slide>
         </div>
         <div className="ml-4 p-5">
