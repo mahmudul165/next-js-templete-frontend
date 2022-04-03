@@ -1,26 +1,35 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 function CustomerServices() {
   return (
-    <section className="service mt-5 bg-light">
-      <div className="container-custom container text-center">
-        <div className="my-3">
-          <h6>Company Services</h6>
-          <h3>We Provide Most Exclusive Service for Business</h3>
+    <section className="service mt-5 p-3 bg-custom-color">
+      <div className="container-custom container text-center  mt-5 p-3">
+        <div className=" ">
+          <h5 className=" my-3 fw-2 fw-bold  global-text">
+            <span className="fs-2 fw mt-2  ">-</span>
+            Company Services
+            <span className="fs-2 fw mt-2  ">-</span>
+          </h5>
+          <h1 my-3 fs-1 fw-bolder m-3 py-1>
+            We Provide Most Exclusive Service for Business
+          </h1>
         </div>
         <div className="div-content py-4">
-          <section>
-            <section className="row row-cols-4 align-items-center rounded-3 m-0 justify-content-around">
+          <section className="p-4">
+            <section className="row row-cols-4 align-items-center rounded-3 m-0 justify-content-around p-4">
               <div className="col-12 col-lg-3 bg-white rounded border-primary text-center">
                 <div className="card border-0" style={{ width: "18rem" }}>
-                  <div className="p-3">
-                    <img
-                      width="200px"
-                      height="200px"
-                      src="/icons/image 12.png"
-                      className="card-img-top p-3"
-                      alt="..."
-                    />
+                  <div className="p-4 ">
+                    <Fade top>
+                      <img
+                        width="75px"
+                        height="85px"
+                        src="/icons/Vector.png"
+                        className="card-img-top  "
+                        alt="..."
+                      />
+                    </Fade>
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Creative Idea</h5>
@@ -34,14 +43,16 @@ function CustomerServices() {
               </div>
               <div className="col-12 col-lg-3 bg-white rounded border-primary text-center">
                 <div className="card border-0" style={{ width: "18rem" }}>
-                  <div className="p-3">
-                    <img
-                      width="200px"
-                      height="200px"
-                      src="/icons/image 13.png"
-                      className="card-img-top p-3"
-                      alt="..."
-                    />
+                  <div className="p-4">
+                    <Fade top>
+                      <img
+                        width="60px"
+                        height="75px"
+                        src="/icons/Vector (1).png"
+                        className="card-img-top  "
+                        alt="..."
+                      />
+                    </Fade>
                   </div>
                   <div className="card-body">
                     <h5 className="card-title">Creative Idea</h5>
@@ -54,14 +65,16 @@ function CustomerServices() {
                 </div>
               </div>
               <div className="card border-0" style={{ width: "18rem" }}>
-                <div className="p-3">
-                  <img
-                    width="200px"
-                    height="200px"
-                    src="/icons/image 13.png"
-                    className="card-img-top p-3"
-                    alt="..."
-                  />
+                <div className="p-4">
+                  <Fade top>
+                    <img
+                      width="60px"
+                      height="75px"
+                      src="/icons/Vector (2).png"
+                      className="card-img-top  "
+                      alt="..."
+                    />
+                  </Fade>
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Creative Idea</h5>

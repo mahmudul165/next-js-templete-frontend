@@ -4,52 +4,64 @@ function MeetAdvisor() {
   return (
     <section className="container mt-5  ">
       <div className="text-center">
-        <h6>-Meet Our Advisors-</h6>
-        <h2>We have an Exclusive Team Member</h2>
+        <h5 className=" my-3 fw-2 fw-bold  global-text">
+          <span className="fs-2 fw mt-2  ">-</span>
+          Meet Our Advisors <span className="fs-2 fw mt-2  ">-</span>
+        </h5>
+
+        <h1 className="fs-1 fw-bolder my-2 p-3">
+          We have an Exclusive Team Member
+        </h1>
       </div>
       {/* <!-- team member card start  --> */}
-      <div className="row row-cols-4 advisor-container">
+      <div className="row row-cols-4 advisor-container  ">
         {/* <!-- card 1 start  --> */}
-        <div className="card bg-white text-dark border-0">
-          <img src="images/jacket-1.png" className="card-img" alt="..." />
+        <div className="card bg-white text-dark border-0  ">
+          <img src="images/a3.png" className="card-img" alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
             <h6>mahmudul Hasan</h6>
-            <p>Last updated 3 mins ago</p>
+            <p>Business Developer</p>
           </div>
         </div>
         {/* <!-- card 1 end --> */}
         <div className="card bg-white text-dark border-0">
-          <img src="images/jacket-1.png" className="card-img" alt="..." />
+          <img src="images/a4.png" className="card-img" alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
             <h6>mahmudul Hasan</h6>
-            <p>Last updated 3 mins ago</p>
+            <p>Business Developer</p>
           </div>
         </div>
         <div className="card bg-white text-dark border-0">
-          <img src="images/jacket-1.png" className="card-img" alt="..." />
+          <img src="images/a1.png" className="card-img" alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
             <h6>mahmudul Hasan</h6>
-            <p>Last updated 3 mins ago</p>
+            <p>Business Developer</p>
           </div>
         </div>
         <div className="card bg-white text-dark border-0">
-          <img src="images/jacket-1.png" className="card-img" alt="..." />
+          <img src="images/a2.png" className="card-img" alt="..." />
           <div className="card-img-overlay"></div>
           <div className="card-footer border-0 shadow-none bg-white text-center">
             <h6>mahmudul Hasan</h6>
-            <p>Last updated 3 mins ago</p>
+            <p>Business Developer</p>
           </div>
         </div>
       </div>
       {/* <!-- 2nd part of advisors team --> */}
-      <section className="d-flex">
+      <section className="d-flex align-items-center my-3 py-2">
         <div className="do-section-element">
-          <h6>- Company Skills</h6>
-          <h3>We Have Experience for Business Planning</h3>
-          <p>
+          <h5 className=" my-3 fw-2 fw-bold  global-text">
+            <span className="fs-2 fw mt-2  ">-</span>
+            Company Skills
+          </h5>
+
+          <h1 className="fs-1 fw-bolder my-2 py-3">
+            We Have Experience for Business Planning
+          </h1>
+          <p className="py-2 my-2">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since
@@ -61,13 +73,13 @@ function MeetAdvisor() {
             form, by injected humour, or randomised words which don't look even.
           </p>
 
-          <button className="btn btn-md btn-dark text-white button-custom rounded-pill">
+          <button className="btn btn-md btn-dark text-white button-custom rounded-pill my-2 py-2">
             <div className="button-custom-in"></div>
-            Consulting Now
+            Learn More
           </button>
         </div>
         <div className="d-flex p-3">
-          <div className="m-3 ">
+          <div className="m-3 mb-3">
             <div className="test-shape  "></div>
             <div className="test-shape"></div>
           </div>

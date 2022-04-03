@@ -1,7 +1,7 @@
 import React from "react";
 function Header() {
   return (
-    <header>
+    <header className="    ">
       {/* <!-- navbar --> */}
       <section className="navbar-custom">
         <nav className="container navbar navbar-expand-lg">

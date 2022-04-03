@@ -21,8 +21,8 @@ function Footer() {
               </div>
 
               <div>
-                <button className="btn btn-md bg-light text-white button-custom rounded-pill">
-                  <div className="button-custom-in"></div>
+                <button className="btn btn-lg button-custom btn-color-bg text-white   rounded-pill p-2 m-1  ">
+                  <div className=" inner-button bg-dark fw-bold"></div>
                   Subscribe Now
                 </button>
               </div>
