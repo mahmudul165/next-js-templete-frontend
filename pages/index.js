@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Header from "../component/Header";
+ 
 import About from "../component/About";
 import CustomerServices from "../component/CustomerServices";
 import VideoSection from "../component/VideoSection";
@@ -9,7 +9,7 @@ import Features from "../component/Features";
 import WeDo from "../component/WeDo";
 import MeetAdvisor from "../component/MeetAdvisor";
 import Team from "../component/Team";
-import Footer from "../component/Footer";
+ 
 import Slider from "../component/Slider";
 
 function Home() {
@@ -23,16 +23,21 @@ function Home() {
 
       {/* home page start */}
       <>
-        <Header />
-        <Slider />
+
+
+
+
+
+
+        {/* <Slider />
+        
         <About />
         <CustomerServices />
         <VideoSection />
         <Features />
         <WeDo />
         <MeetAdvisor />
-        <Team />
-        <Footer />
+        <Team /> */}
       </>
       {/* home page end */}
     </>
