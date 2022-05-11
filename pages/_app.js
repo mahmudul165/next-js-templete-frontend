@@ -1,45 +1,38 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import Script from "next/script";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Script from "next/script"; 
 import Layout from "../component/layout/Layout";
 import Footer from "../component/layout/Footer";
 import Header from "../component/layout/Header";
+import Meta from "../component/Meta";
 
 function MyApp({ Component, pageProps }) {
   //const getLayout = Component.getLayout || ((page) => page);
   //console.log("page is",getLayout)
   if (Component.getLayout) {
     return Component.getLayout(<Component {...pageProps} />);
-  }  
-    return (
-      <>
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-          {/* css from brootstrap   */}
-          <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-            crossOrigin="anonymous"
-          /> 
-        </Head>
-        {/* font awesome   */}
-        <Script
-          src="https://kit.fontawesome.com/61a6132c09.js"
-          crossOrigin="anonymous"
-        ></Script>
-        <Script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-          crossOrigin="anonymous"
-        />
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </>
-    );
-  
+  }
+  return (
+    <>
+      <Head>
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
+        <Meta/>
+      </Head>
+      {/* font awesome   */}
+      <Script
+        src="https://kit.fontawesome.com/61a6132c09.js"
+        crossOrigin="anonymous"
+      ></Script>
+        {/* Bootstrap Bundle with Popper   */}
+      <Script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossOrigin="anonymous"
+      />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
+  );
 }
 export default MyApp;

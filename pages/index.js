@@ -15,14 +15,8 @@ function Home() {
       />
 
       {/* home page start */}
-      <>
-
-
-
-
-
-
-        {/* <Slider />
+      <> 
+         {/* <Slider />
 
         <About />
         <CustomerServices />
