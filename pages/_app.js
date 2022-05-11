@@ -23,20 +23,7 @@ function MyApp({ Component, pageProps }) {
             rel="stylesheet"
             integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
             crossOrigin="anonymous"
-          />
-
-          <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-            crossOrigin="anonymous"
-          ></link>
-          {/* greensock text animate */}
-          <link
-            href="https://fonts.googleapis.com/css?family=Asap:400,700"
-            rel="stylesheet"
-            type="text/css"
-          ></link>
+          /> 
         </Head>
         {/* font awesome   */}
         <Script
