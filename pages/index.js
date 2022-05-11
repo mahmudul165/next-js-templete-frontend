@@ -1,5 +1,5 @@
-import Image from "next/image"; 
-import styles from "../styles/Home.module.css"; 
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 import Meta from "../component/seo/Meta";
 
 function Home() {
@@ -13,8 +13,8 @@ function Home() {
       />
 
       {/* home page start */}
-      <> 
-         {/* <Slider /> 
+      <>
+        {/* <Slider /> 
         <Team /> */}
       </>
       {/* home page end */}

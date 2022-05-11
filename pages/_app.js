@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import Head from "next/head";
-import Script from "next/script"; 
-import Layout from "../component/layout/Layout"; 
+import Script from "next/script";
+import Layout from "../component/layout/Layout";
 import Meta from "../component/seo/Meta";
 
 function MyApp({ Component, pageProps }) {
@@ -14,15 +14,19 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
-        <Meta/>
+        <Meta />
       </Head>
       {/* font awesome   */}
       <Script
         src="https://kit.fontawesome.com/61a6132c09.js"
         crossOrigin="anonymous"
       ></Script>
-        {/* Bootstrap Bundle with Popper   */}
-        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossOrigin="anonymous"/> 
+      {/* Bootstrap Bundle with Popper   */}
+      <Script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossOrigin="anonymous"
+      />
       <Layout>
         <Component {...pageProps} />
       </Layout>
