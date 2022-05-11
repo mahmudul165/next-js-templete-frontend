@@ -1,10 +1,8 @@
 import "../styles/globals.css";
 import Head from "next/head";
 import Script from "next/script"; 
-import Layout from "../component/layout/Layout";
-import Footer from "../component/layout/Footer";
-import Header from "../component/layout/Header";
-import Meta from "../component/Meta";
+import Layout from "../component/layout/Layout"; 
+import Meta from "../component/seo/Meta";
 
 function MyApp({ Component, pageProps }) {
   //const getLayout = Component.getLayout || ((page) => page);
@@ -24,11 +22,7 @@ function MyApp({ Component, pageProps }) {
         crossOrigin="anonymous"
       ></Script>
         {/* Bootstrap Bundle with Popper   */}
-      <Script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossOrigin="anonymous"
-      />
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossOrigin="anonymous"/> 
       <Layout>
         <Component {...pageProps} />
       </Layout>

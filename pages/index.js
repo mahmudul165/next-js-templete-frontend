@@ -1,8 +1,6 @@
-import Image from "next/image";
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
- 
-import Meta from "../component/Meta";
+import Image from "next/image"; 
+import styles from "../styles/Home.module.css"; 
+import Meta from "../component/seo/Meta";
 
 function Home() {
   return (
@@ -16,14 +14,7 @@ function Home() {
 
       {/* home page start */}
       <> 
-         {/* <Slider />
-
-        <About />
-        <CustomerServices />
-        <VideoSection />
-        <Features />
-        <WeDo />
-        <MeetAdvisor />
+         {/* <Slider /> 
         <Team /> */}
       </>
       {/* home page end */}

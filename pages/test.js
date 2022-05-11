@@ -1,5 +1,5 @@
 import Footer from "../component/layout/Footer";
-import Meta from "../component/Meta";
+import Meta from "../component/seo/Meta";
 
 function Test() {
   return <h1>test</h1>;

@@ -15,8 +15,7 @@ const  Meta=({title,keywords,description,image }) =>{
     <meta itemprop="description" content={description} /> */}
     <meta name="keywords" content={keywords} />
     <meta name="image" content={image} />
-  </Head>
-    
+  </Head> 
   )
 }
 Meta.defaultProps = {
