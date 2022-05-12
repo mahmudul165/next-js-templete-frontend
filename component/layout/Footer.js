@@ -1,7 +1,7 @@
 import React from "react";
 function Footer() {
   return (
-    <div className="mt-5 bg-dark text-white">
+    <div className="container mt-5 bg-dark text-white">
       <div className="container">
         <div className="row gx-4 my-5 p-3">
           <div className="col-4  ">

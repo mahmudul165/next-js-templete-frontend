@@ -21,7 +21,6 @@ function Home() {
         <Showcase />
         <ExploreMore />
         <Product />
-        <Footer />
       </div>
     </>
   );
