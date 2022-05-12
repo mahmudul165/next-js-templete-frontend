@@ -3,9 +3,19 @@
 /* common style or utilities */
 body {
   padding: 0;
-  margin: 0;  
+  margin: 0;
   font-family: "Roboto", sans-serif;
-  font-weight: 700 !important;
+  font-size: 17px;
+  background-color: #fef3ea;
+
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: black;
+}
+.d-flex {
+  align-items: center;
 }

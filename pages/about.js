@@ -1,4 +1,5 @@
 import Header from "../component/layout/Header";
+
 function About() {
   return <h1>about</h1>;
 }
