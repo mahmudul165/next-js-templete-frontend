@@ -16,6 +16,36 @@ button {
   font-size: 17px;
   color: black;
 }
+.text-color {
+  color: #ff8095;
+}
 .d-flex {
   align-items: center;
+}
+a {
+  text-decoration: none !important;
+  color: black;
+}
+.custom-nav-icon {
+  background-color: #c1706f;
+}
+
+.logo-size {
+  width: "125px";
+  height: " 125px";
+}
+
+/*  responsive for mobile devices  */
+@media only screen and (max-width: 688px) {
+  .responsive-search {
+    margin-right: auto;
+  }
+  .expand-button {
+    margin-top: -196px;
+    margin-left: auto;
+  }
+}
+/* media query for responsive */
+/* If the screen size is 601px or more,  */
+@media only screen and (min-width: 601px) {
 }

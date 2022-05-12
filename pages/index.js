@@ -1,6 +1,11 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Meta from "../component/seo/Meta";
+import Slider from "../component/home/Slider";
+import Showcase from "../component/home/Showcase";
+import ExploreMore from "../component/home/ExploreMore";
+import Product from "../component/home/Product";
+import Footer from "../component/layout/Footer";
 
 function Home() {
   return (
@@ -11,13 +16,13 @@ function Home() {
         description="Arshi-365-ecommerce cwsgeg gergerg gedgerg degersger egvvesrgeg gwergewgerwghergherh"
         image="test purpose"
       />
-
-      {/* home page start */}
-      <>
-        {/* <Slider /> 
-        <Team /> */}
-      </>
-      {/* home page end */}
+      <div className="container">
+        <Slider />
+        <Showcase />
+        <ExploreMore />
+        <Product />
+        <Footer />
+      </div>
     </>
   );
 }
