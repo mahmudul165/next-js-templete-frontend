@@ -11,7 +11,7 @@ function Slider() {
                 className="text-color   fw-bolder "
                 style={{ fontSize: "73px" }}
               >
-                Arschi
+                Arshi
               </h1>
               <h5
                 className="card-title text-color py-2"
@@ -39,7 +39,7 @@ function Slider() {
                 <div className="carousel-inner  ">
                   <div
                     className="carousel-item active  "
-                    data-bs-interval="10000"
+                    data-bs-interval="500"
                   >
                     <img
                       src="/home/slider1.png"
@@ -47,16 +47,9 @@ function Slider() {
                       alt=" "
                     />
                   </div>
-                  <div className="carousel-item" data-bs-interval="2000">
+                  <div className="carousel-item" data-bs-interval="500">
                     <img
                       src="/home/slider2.png"
-                      className="d-block w-100"
-                      alt=" "
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      src="/home/slider3.png"
                       className="d-block w-100"
                       alt=" "
                     />
