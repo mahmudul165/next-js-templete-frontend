@@ -5,7 +5,7 @@ const Meta = ({ title, keywords, description, image }) => {
   return (
     <Head>
       <title>{title} | App</title>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta
         name="viewport"

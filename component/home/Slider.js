@@ -3,7 +3,7 @@ import React from "react";
 function Slider() {
   return (
     <section className="container   " style={{ backgroundColor: "#FFDDDE" }}>
-      <div className="row g-2 align-items-centerc  ">
+      <div className="row g-2 align-items-center  ">
         <div className="col-sm-12 col-md-6 p-4">
           <div className="card h-100    border-light border-5  ">
             <div className="card-body     ">
@@ -19,7 +19,7 @@ function Slider() {
               >
                 365
               </h5>
-              <p className="  py-2">
+              <p className="py-2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Consequatur similique quibusdam velit fugit rem, reprehenderit
                 at id pariatur omnis, et asperiores placeat, sed facere earum?
