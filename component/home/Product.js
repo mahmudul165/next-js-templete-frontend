@@ -5,7 +5,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 const Product = ({ product }) => {
-  // const {Product} = props;
+  // const {product} = props;
   const { _id, name, price, description, img } = product;
   // animation
   const styles = useSpring({

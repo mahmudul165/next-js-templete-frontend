@@ -55,12 +55,13 @@ function Showcase() {
             </button>
           </div>
         </div>
-        <div className="d-flex flex-column col-md-6  justify-content-center align-items-center m-auto p-2">
-          <div>
+        <div className="d-flex flex-column col-md-6  justify-content-center align-items-center m-auto ">
+          <div className="conatiner">
             {/* new arrival image*/}
             <a href="">
               <img
-                style={{ width: 440, height: 522 }}
+                className="p-5"
+                style={{ width: 430, height: 546 }}
                 src="/home/new arrivel 1.png"
                 alt=""
               />

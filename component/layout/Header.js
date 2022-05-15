@@ -36,7 +36,7 @@ function Header() {
               />
               <div className="input-group-append">
                 <Button
-                  className="   input-group-text"
+                  className="input-group-text"
                   type="submit"
                   style={{
                     backgroundColor: "#c1706f",
