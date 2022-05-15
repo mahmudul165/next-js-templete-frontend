@@ -3,10 +3,11 @@ import React from "react";
 function Slider() {
   return (
     <section className="container   " style={{ backgroundColor: "#FFDDDE" }}>
-      <div className="row g-2 align-items-center  ">
-        <div className="col-sm-12 col-md-6 p-4">
-          <div className="card h-100    border-light border-5  ">
-            <div className="card-body     ">
+      <div className="row g-2 align-items-center   pt-2 pb-3 ">
+        <div className="col-sm-12 col-md-6    p-4 ">
+          <div className="p-2">
+            {" "}
+            <div className=" h-100    border-light border-5  ">
               <h1
                 className="text-color   fw-bolder "
                 style={{ fontSize: "73px" }}
@@ -19,11 +20,22 @@ function Slider() {
               >
                 365
               </h5>
-              <p className="py-2">
+              <p className="py-2 ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Consequatur similique quibusdam velit fugit rem, reprehenderit
                 at id pariatur omnis, et asperiores placeat, sed facere earum?
               </p>
+
+              <button
+                className="btn rounded-pill p-2 px-3 my-4 "
+                style={{
+                  backgroundColor: "white",
+                  color: "#ff8095",
+                  border: 0,
+                }}
+              >
+                DISCOVER THE NEW STYLE
+              </button>
             </div>
           </div>
         </div>
@@ -33,7 +45,7 @@ function Slider() {
               {/* start carousel */}
               <div
                 id="carouselExampleInterval"
-                className="carousel slide p-3  card-body"
+                className="carousel slide   "
                 data-bs-ride="carousel"
               >
                 <div className="carousel-inner  ">

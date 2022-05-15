@@ -9,7 +9,7 @@ const Products = () => {
     fetch("https://intense-caverns-52774.herokuapp.com/packages")
       .then((res) => res.json())
       .then((data) => setProducts(data));
-  }, [Products]);
+  }, []);
 
   console.log("testing data from apiAction", Products);
   return (
