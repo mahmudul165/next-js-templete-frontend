@@ -7,6 +7,7 @@ import ExploreMore from "../component/home/ExploreMore";
 import Products from "../component/home/Products";
 import Footer from "../component/layout/Footer";
 import Product from "../component/home/Product";
+import Services from "../component/home/Products";
 
 function Home() {
   return (
@@ -21,8 +22,9 @@ function Home() {
         <Slider />
         <Showcase />
         <ExploreMore />
-        {/* <Products /> */}
-        <Product />
+        <Products />
+        {/* <Product /> */}
+        {/* <Services /> */}
       </div>
     </>
   );
