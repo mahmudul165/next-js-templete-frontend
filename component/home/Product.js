@@ -16,13 +16,12 @@ const Product = ({ product }) => {
   });
   return (
     <>
-      {/* test */}
       <div className="col-sm-12 col-md-4 p-2  ">
-        <div className="card border-0 " style={{ width: "18rem" }}>
+        <div className="card border-0 " style={{ width: "22rem" }}>
           <img
             src="/images/jacket-1.png"
             alt=""
-            className="card-img-top  p-2 "
+            className="card-img-top  p-2  "
           />
 
           <div className="card-body">
