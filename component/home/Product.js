@@ -1,48 +1,185 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React from "react";
 
-export default class Products extends Component {
-  render() {
-    const settings = {
-      // dots: true,
-      infinite: true,
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear",
-    };
-    return (
-      <div className="container">
-        <h1 className="p-2 fs-1 fw-bolder  " style={{ color: "#ff8095" }}>
-          Top selected
-        </h1>
-        <div className="container my-4 py-4  ">
-          <div className="container text-center my-4 py-4">
-            <Slider {...settings}>
-              <div className="p-2">
-                <img src="/favicon.ico" alt="" className="w-25 h-25" />
+function Product() {
+  return (
+    <div className="container">
+      <h3 className="fs-1 fw-bolder  " style={{ color: "#ff8095" }}>
+        Top selected
+      </h3>
+      <div className="   ">
+        <div className="row text-center my-4 py-4  ">
+          <div className="col-sm-12 col-md-4 p-2  ">
+            <div class="card border-0 " style={{ width: "18rem" }}>
+              <img
+                src="/images/jacket-1.png"
+                alt=""
+                className="card-img-top  p-2 "
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="text-center">550</p>
+                <button
+                  className="btn rounded-pill p-2 px-3"
+                  style={{
+                    backgroundColor: "#FFDDDE",
+                    color: "#ff8095",
+                    border: 0,
+                  }}
+                >
+                  BUY NOW
+                </button>
               </div>
-              <div className="p-2">
-                <img src="/vercel.svg" alt="" className="w-50 h-50" />
+            </div>
+          </div>{" "}
+          <div className="col-sm-12 col-md-4 p-2  ">
+            <div class="card border-0 " style={{ width: "18rem" }}>
+              <img
+                src="/images/jacket-1.png"
+                alt=""
+                className="card-img-top  p-2 "
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="text-center">550</p>
+                <button
+                  className="btn rounded-pill p-2 px-3"
+                  style={{
+                    backgroundColor: "#FFDDDE",
+                    color: "#ff8095",
+                    border: 0,
+                  }}
+                >
+                  BUY NOW
+                </button>
               </div>
-              <div className="p-2">
-                <img src="/favicon.ico" alt="" className="w-25 h-25" />
+            </div>
+          </div>{" "}
+          <div className="col-sm-12 col-md-4 p-2  ">
+            <div class="card border-0 " style={{ width: "18rem" }}>
+              <img
+                src="/images/jacket-1.png"
+                alt=""
+                className="card-img-top  p-2 "
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="text-center">550</p>
+                <button
+                  className="btn rounded-pill p-2 px-3"
+                  style={{
+                    backgroundColor: "#FFDDDE",
+                    color: "#ff8095",
+                    border: 0,
+                  }}
+                >
+                  BUY NOW
+                </button>
               </div>
-              <div className="p-2">
-                <img src="/favicon.ico" alt="" className="w-25 h-25" />
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-4 p-2  2">
+            <div class="card border-0 " style={{ width: "18rem" }}>
+              <img
+                src="/images/jacket-1.png"
+                alt=""
+                className="card-img-top  p-2 "
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="text-center">550</p>
+                <button
+                  className="btn rounded-pill p-2 px-3"
+                  style={{
+                    backgroundColor: "#FFDDDE",
+                    color: "#ff8095",
+                    border: 0,
+                  }}
+                >
+                  BUY NOW
+                </button>
               </div>
-              <div className="p-2">
-                <img src="/vercel.svg" alt="" className="w-50 h-50" />
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-4 p-2  ">
+            <div class="card border-0 " style={{ width: "18rem" }}>
+              <img
+                src="/images/jacket-1.png"
+                alt=""
+                className="card-img-top  p-2 "
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="text-center">550</p>
+                <button
+                  className="btn rounded-pill p-2 px-3"
+                  style={{
+                    backgroundColor: "#FFDDDE",
+                    color: "#ff8095",
+                    border: 0,
+                  }}
+                >
+                  BUY NOW
+                </button>
               </div>
-              <div className="p-2">
-                <img src="/favicon.ico" alt="" className="w-25 h-25" />
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-4 p-2">
+            <div class="card border-0 " style={{ width: "18rem" }}>
+              <img
+                src="/images/jacket-1.png"
+                alt=""
+                className="card-img-top  p-2 "
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="text-center">550</p>
+                <button
+                  className="btn rounded-pill p-2 px-3"
+                  style={{
+                    backgroundColor: "#FFDDDE",
+                    color: "#ff8095",
+                    border: 0,
+                  }}
+                >
+                  BUY NOW
+                </button>
               </div>
-            </Slider>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-4 p-2">
+            <div class="card border-0 " style={{ width: "18rem" }}>
+              <img
+                src="/images/jacket-1.png"
+                alt=""
+                className="card-img-top  p-2 "
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="text-center">550</p>
+                <button
+                  className="btn rounded-pill p-2 px-3"
+                  style={{
+                    backgroundColor: "#FFDDDE",
+                    color: "#ff8095",
+                    border: 0,
+                  }}
+                >
+                  BUY NOW
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+export default Product;

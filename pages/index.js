@@ -4,8 +4,9 @@ import Meta from "../component/seo/Meta";
 import Slider from "../component/home/Slider";
 import Showcase from "../component/home/Showcase";
 import ExploreMore from "../component/home/ExploreMore";
-import Product from "../component/home/Product";
+import Products from "../component/home/Products";
 import Footer from "../component/layout/Footer";
+import Product from "../component/home/Product";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
         <Slider />
         <Showcase />
         <ExploreMore />
+        {/* <Products /> */}
         <Product />
       </div>
     </>
