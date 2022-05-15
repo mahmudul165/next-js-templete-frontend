@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faRectangleList } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 function Header() {
   const Button = styled.button`
     background-color: #c1706f;
@@ -15,11 +16,11 @@ function Header() {
           {/* logo part  section*/}
           <div className="   ">
             <a className="navbar-brand" href="">
-              <img
+              <Image
                 src="/home/logo.png"
-                alt=""
-                style={{ width: 75, height: 75 }}
-                className="logo"
+                alt="ECOMMERCE  LOGO"
+                width={75}
+                height={75}
               />
             </a>
           </div>
@@ -56,11 +57,11 @@ function Header() {
           </div>
           {/* cart part */}
           <div className="d-flex   ">
-            <img
+            <Image
               src="/home/cart-logo.png"
-              alt=""
-              width="55"
-              height="52"
+              alt="CART-LOGO"
+              width={55}
+              height={52}
               className="d-inline-block align-text-top  "
             />
             <a href="" className="ms-1  text-decoration-none text-dark">
@@ -70,11 +71,11 @@ function Header() {
           {/*authentication section */}
           {/* login  */}
           <div className=" d-flex  ">
-            <img
+            <Image
               src="/home/icon-login.png"
-              alt=""
-              width="20"
-              height="20"
+              alt="Picture of the author"
+              width={20}
+              height={20}
               className="d-inline-block align-text-top  "
             />
             <a href="" className="ms-1   text-decoration-none text-dark">
@@ -83,11 +84,11 @@ function Header() {
           </div>
           {/* register  */}
           <div className="text-center d-flex   ms-1">
-            <img
+            <Image
               src="/home/icon-register.png"
-              alt=""
-              width="20"
-              height="20"
+              alt="icon-register"
+              width={20}
+              height={20}
               className=" ms-1"
             />
             <a href="" className="ms-1   text-decoration-none text-dark">
@@ -125,11 +126,11 @@ function Header() {
                 className="nav-link   active  ms-4 text-dark "
                 aria-current="page"
               >
-                <img
+                <Image
                   src="/home/house-solid.png"
-                  alt=""
-                  width="20"
-                  height="20"
+                  alt="Picture  house-solid"
+                  width={20}
+                  height={20}
                   className=" "
                 />
               </a>

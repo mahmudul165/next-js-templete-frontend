@@ -3,7 +3,7 @@ import React from "react";
 // import { AwesomeButton } from "react-awesome-button";
 // import "react-awesome-button/dist/styles.css";
 import { useSpring, animated } from "react-spring";
-
+import Image from "next/image";
 const Product = ({ product }) => {
   // const {product} = props;
   const { _id, name, price, description, img } = product;
@@ -17,12 +17,13 @@ const Product = ({ product }) => {
     <>
       <div className="col-sm-12 col-md-4 p-2  ">
         <div className="card border-0 " style={{ width: "22rem" }}>
-          <img
+          <Image
             src="/images/jacket-1.png"
-            alt=""
+            alt="E-COMMERCE  products"
             className="card-img-top  p-2  "
+            width={336}
+            height={336}
           />
-
           <div className="card-body">
             <h6 className="card-title fs-6 fw-bolder">{name}</h6>
             <p className="text-center">Price:$ {price}</p>

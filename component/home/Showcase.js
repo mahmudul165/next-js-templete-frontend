@@ -1,6 +1,6 @@
 import React from "react";
 import Gallery from "react-photo-gallery";
-
+import Image from "next/image";
 function Showcase() {
   const photos = [
     {
@@ -59,11 +59,12 @@ function Showcase() {
           <div className="conatiner">
             {/* new arrival image*/}
             <a href="">
-              <img
-                className="p-5"
-                style={{ width: 430, height: 546 }}
+              <Image
                 src="/home/new arrivel 1.png"
-                alt=""
+                alt="new arrrival product"
+                width={430}
+                height={546}
+                className="p-5"
               />
             </a>
           </div>

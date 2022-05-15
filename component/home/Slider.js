@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function Slider() {
   return (
     <section className="container   " style={{ backgroundColor: "#FFDDDE" }}>
@@ -53,17 +53,21 @@ function Slider() {
                     className="carousel-item active  "
                     data-bs-interval="500"
                   >
-                    <img
+                    <Image
                       src="/home/slider1.png"
+                      alt="new arrrival product"
+                      width={492}
+                      height={562}
                       className="d-block w-100"
-                      alt=" "
                     />
                   </div>
                   <div className="carousel-item" data-bs-interval="500">
-                    <img
+                    <Image
                       src="/home/slider2.png"
+                      alt="new arrrival product"
+                      width={492}
+                      height={562}
                       className="d-block w-100"
-                      alt=" "
                     />
                   </div>
                 </div>
